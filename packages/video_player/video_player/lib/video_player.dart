@@ -70,6 +70,13 @@ class VideoPlayerValue {
   /// workaround for this issue https://github.com/dart-lang/language/issues/2009
   static const String _defaultErrorDescription = 'defaultErrorDescription';
 
+  /// The value of a [VideoPlayerController].
+  ///
+  /// This is immutable and contains the current state of the video. It is
+  /// created by [VideoPlayerController.value] and can be used to get the current
+  /// state of the video.
+  int get test => 5;
+
   /// The total duration of the video.
   ///
   /// The duration is [Duration.zero] if the video hasn't been initialized.
