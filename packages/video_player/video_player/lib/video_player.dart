@@ -75,7 +75,7 @@ class VideoPlayerValue {
   /// This is immutable and contains the current state of the video. It is
   /// created by [VideoPlayerController.value] and can be used to get the current
   /// state of the video.
-  int get test => 5;
+  int get bufferedPosition => 5;
 
   /// The total duration of the video.
   ///
